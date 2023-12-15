@@ -1,0 +1,78 @@
+html {
+  background-color: rgb(28, 28, 28);
+}
+
+body {
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: 10% 0;
+}
+.contant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+p{
+    color: white;
+    font-size: 50px;
+}
+button:first-of-type {
+  background-color: unset;
+  border: 1px dashed green;
+  color: green;
+  align-items: center;
+  font-size: 16px;
+  width: 113.33333400000001px;
+  height: 53.333334px;
+ 
+}
+button:first-of-type:hover {
+  background-color: unset;
+  border: 2px solid   green;
+  color: rgb(246, 246, 246);
+  align-items: center;
+  font-size: 18px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+button:last-of-type {
+  background-color: unset;
+  border: 1px dashed rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  align-items: center;
+  font-size: 16px;
+  width: 113.33333400000001px;
+  height: 53.333334px;
+  margin-left: 10px;
+}
+button:last-of-type:hover {
+  background-color: unset;
+  border: 2px solid  rgb(255, 0, 0);
+  color: rgb(229, 221, 221);
+  align-items: center;
+  font-size: 18px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#reset{
+  background-color: unset;
+  border: 1px dashed rgb(171, 163, 19);
+  color: rgb(201, 205, 13);
+  align-items: center;
+  font-size: 16px;
+  width: 113.33333400000001px;
+  height: 53.333334px;
+  margin-left: 10px;
+}
+#reset:hover{
+  background-color: unset;
+  border: 2px solid rgb(171, 163, 19);
+  color: rgb(229, 221, 221);
+  align-items: center;
+  font-size: 18px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
